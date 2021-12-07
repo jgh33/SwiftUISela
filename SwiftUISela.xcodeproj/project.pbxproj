@@ -23,6 +23,7 @@
 		E9558A33275F620C00726637 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A32275F620C00726637 /* ImageSet.swift */; };
 		E9558A35275F62B400726637 /* ButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A34275F62B400726637 /* ButtonSet.swift */; };
 		E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A36275F790C00726637 /* HomeNavigationCardView.swift */; };
+		E9558A3B275F7BCC00726637 /* BannerCardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3A275F7BCC00726637 /* BannerCardSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E9558A32275F620C00726637 /* ImageSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSet.swift; sourceTree = "<group>"; };
 		E9558A34275F62B400726637 /* ButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSet.swift; sourceTree = "<group>"; };
 		E9558A36275F790C00726637 /* HomeNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationCardView.swift; sourceTree = "<group>"; };
+		E9558A3A275F7BCC00726637 /* BannerCardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCardSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				E9558A30275F5E8900726637 /* TextSet.swift */,
-				E9558A2A275F3D7000726637 /* NavigationCardSet.swift */,
-				E9558A36275F790C00726637 /* HomeNavigationCardView.swift */,
-				E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */,
-				E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */,
-				E9558A2C275F447E00726637 /* OtherNavigationCardView.swift */,
-				E9558A2E275F47DD00726637 /* ResultCardView.swift */,
+				E9558A39275F7BA200726637 /* BannerCard */,
+				E9558A38275F7B8300726637 /* NavigationCard */,
 				E9558A32275F620C00726637 /* ImageSet.swift */,
 				E9558A34275F62B400726637 /* ButtonSet.swift */,
 			);
@@ -117,6 +115,27 @@
 				E9558A22275DF58100726637 /* Interest.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E9558A38275F7B8300726637 /* NavigationCard */ = {
+			isa = PBXGroup;
+			children = (
+				E9558A2A275F3D7000726637 /* NavigationCardSet.swift */,
+				E9558A36275F790C00726637 /* HomeNavigationCardView.swift */,
+				E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */,
+				E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */,
+				E9558A2C275F447E00726637 /* OtherNavigationCardView.swift */,
+				E9558A2E275F47DD00726637 /* ResultCardView.swift */,
+			);
+			path = NavigationCard;
+			sourceTree = "<group>";
+		};
+		E9558A39275F7BA200726637 /* BannerCard */ = {
+			isa = PBXGroup;
+			children = (
+				E9558A3A275F7BCC00726637 /* BannerCardSet.swift */,
+			);
+			path = BannerCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +215,7 @@
 				E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */,
 				E9558A2F275F47DD00726637 /* ResultCardView.swift in Sources */,
 				E9558A20275DF4B800726637 /* UncheckNavigationCardView.swift in Sources */,
+				E9558A3B275F7BCC00726637 /* BannerCardSet.swift in Sources */,
 				E9558A23275DF58100726637 /* Interest.swift in Sources */,
 				E9558A1E275DF30C00726637 /* Conents.swift in Sources */,
 				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,

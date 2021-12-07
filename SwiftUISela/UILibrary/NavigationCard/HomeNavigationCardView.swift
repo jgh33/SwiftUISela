@@ -18,6 +18,9 @@ struct HomeNavigationCardView: View {
             CloseAndGoView()
         }
         .frame(width: 960 * scale, height: 312 * scale, alignment: .leading)
+        .background()
+        .clipShape(RoundedRectangle(cornerRadius: CornerRadius, style: .continuous))
+        .shadow(color: .gray, radius: 5, x: 0, y: 5)
     }
 }
 

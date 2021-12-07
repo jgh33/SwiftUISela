@@ -12,6 +12,9 @@ struct ResultCardView: View {
     var body: some View {
         ResultCardContent(interest: interest)
             .frame(width: 960 * scale, height: 274 * scale, alignment: .leading)
+            .background()
+            .clipShape(RoundedRectangle(cornerRadius: CornerRadius, style: .continuous))
+            .shadow(color: .gray, radius: 5, x: 0, y: 5)
     }
 }
 
