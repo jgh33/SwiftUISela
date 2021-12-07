@@ -15,7 +15,7 @@ enum InterestType: String {
 enum Erea: String {
     case none       = ""
     case studio     = "Studio"
-    case timeSquare = "TimeSquare"
+    case timeSquare = "Time Square"
     case fountain   = "Fountain"
     
 }
@@ -35,10 +35,14 @@ struct Interest {
 
 extension Interest {
     var name: String {
-        return "Boulevard Sign Boulevard Sign Boulevard Sign"
+        return "Boulevard Sign"
     }
     
     var length: String {
         return "340m"
+    }
+    
+    var waitingTime: Int {
+        return 0
     }
 }

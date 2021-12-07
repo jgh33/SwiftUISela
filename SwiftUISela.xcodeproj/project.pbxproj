@@ -11,11 +11,18 @@
 		E9558A0F275DEBCE00726637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A0E275DEBCE00726637 /* ContentView.swift */; };
 		E9558A11275DEBD000726637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9558A10275DEBD000726637 /* Assets.xcassets */; };
 		E9558A14275DEBD000726637 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9558A13275DEBD000726637 /* Preview Assets.xcassets */; };
-		E9558A1C275DED9B00726637 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A1B275DED9B00726637 /* CircleImageView.swift */; };
 		E9558A1E275DF30C00726637 /* Conents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A1D275DF30C00726637 /* Conents.swift */; };
-		E9558A20275DF4B800726637 /* NavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A1F275DF4B800726637 /* NavigationCardView.swift */; };
+		E9558A20275DF4B800726637 /* UncheckNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */; };
 		E9558A23275DF58100726637 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A22275DF58100726637 /* Interest.swift */; };
 		E9558A25275DF8F900726637 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A24275DF8F900726637 /* TestData.swift */; };
+		E9558A27275E0ADF00726637 /* CheckedNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */; };
+		E9558A2B275F3D7000726637 /* NavigationCardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A2A275F3D7000726637 /* NavigationCardSet.swift */; };
+		E9558A2D275F447E00726637 /* OtherNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A2C275F447E00726637 /* OtherNavigationCardView.swift */; };
+		E9558A2F275F47DD00726637 /* ResultCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A2E275F47DD00726637 /* ResultCardView.swift */; };
+		E9558A31275F5E8900726637 /* TextSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A30275F5E8900726637 /* TextSet.swift */; };
+		E9558A33275F620C00726637 /* ImageSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A32275F620C00726637 /* ImageSet.swift */; };
+		E9558A35275F62B400726637 /* ButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A34275F62B400726637 /* ButtonSet.swift */; };
+		E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A36275F790C00726637 /* HomeNavigationCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +31,18 @@
 		E9558A0E275DEBCE00726637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9558A10275DEBD000726637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9558A13275DEBD000726637 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E9558A1B275DED9B00726637 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		E9558A1D275DF30C00726637 /* Conents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conents.swift; sourceTree = "<group>"; };
-		E9558A1F275DF4B800726637 /* NavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCardView.swift; sourceTree = "<group>"; };
+		E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncheckNavigationCardView.swift; sourceTree = "<group>"; };
 		E9558A22275DF58100726637 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
 		E9558A24275DF8F900726637 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedNavigationCardView.swift; sourceTree = "<group>"; };
+		E9558A2A275F3D7000726637 /* NavigationCardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCardSet.swift; sourceTree = "<group>"; };
+		E9558A2C275F447E00726637 /* OtherNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherNavigationCardView.swift; sourceTree = "<group>"; };
+		E9558A2E275F47DD00726637 /* ResultCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCardView.swift; sourceTree = "<group>"; };
+		E9558A30275F5E8900726637 /* TextSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSet.swift; sourceTree = "<group>"; };
+		E9558A32275F620C00726637 /* ImageSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSet.swift; sourceTree = "<group>"; };
+		E9558A34275F62B400726637 /* ButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSet.swift; sourceTree = "<group>"; };
+		E9558A36275F790C00726637 /* HomeNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +78,11 @@
 				E9558A0C275DEBCE00726637 /* SwiftUISelaApp.swift */,
 				E9558A0E275DEBCE00726637 /* ContentView.swift */,
 				E9558A24275DF8F900726637 /* TestData.swift */,
+				E9558A1D275DF30C00726637 /* Conents.swift */,
 				E9558A21275DF55F00726637 /* Model */,
 				E9558A1A275DED3500726637 /* UILibrary */,
 				E9558A10275DEBD000726637 /* Assets.xcassets */,
 				E9558A12275DEBD000726637 /* Preview Content */,
-				E9558A1D275DF30C00726637 /* Conents.swift */,
 			);
 			path = SwiftUISela;
 			sourceTree = "<group>";
@@ -84,8 +98,15 @@
 		E9558A1A275DED3500726637 /* UILibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E9558A1B275DED9B00726637 /* CircleImageView.swift */,
-				E9558A1F275DF4B800726637 /* NavigationCardView.swift */,
+				E9558A30275F5E8900726637 /* TextSet.swift */,
+				E9558A2A275F3D7000726637 /* NavigationCardSet.swift */,
+				E9558A36275F790C00726637 /* HomeNavigationCardView.swift */,
+				E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */,
+				E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */,
+				E9558A2C275F447E00726637 /* OtherNavigationCardView.swift */,
+				E9558A2E275F47DD00726637 /* ResultCardView.swift */,
+				E9558A32275F620C00726637 /* ImageSet.swift */,
+				E9558A34275F62B400726637 /* ButtonSet.swift */,
 			);
 			path = UILibrary;
 			sourceTree = "<group>";
@@ -168,13 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9558A31275F5E8900726637 /* TextSet.swift in Sources */,
 				E9558A0F275DEBCE00726637 /* ContentView.swift in Sources */,
-				E9558A1C275DED9B00726637 /* CircleImageView.swift in Sources */,
-				E9558A20275DF4B800726637 /* NavigationCardView.swift in Sources */,
+				E9558A33275F620C00726637 /* ImageSet.swift in Sources */,
+				E9558A2B275F3D7000726637 /* NavigationCardSet.swift in Sources */,
+				E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */,
+				E9558A2F275F47DD00726637 /* ResultCardView.swift in Sources */,
+				E9558A20275DF4B800726637 /* UncheckNavigationCardView.swift in Sources */,
 				E9558A23275DF58100726637 /* Interest.swift in Sources */,
 				E9558A1E275DF30C00726637 /* Conents.swift in Sources */,
+				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,
 				E9558A25275DF8F900726637 /* TestData.swift in Sources */,
+				E9558A27275E0ADF00726637 /* CheckedNavigationCardView.swift in Sources */,
 				E9558A0D275DEBCE00726637 /* SwiftUISelaApp.swift in Sources */,
+				E9558A2D275F447E00726637 /* OtherNavigationCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

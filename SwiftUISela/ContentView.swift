@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationCardView(interest: testInterest).background(.gray)
+        VStack {
+            RoundedHomeCardView(interest: testInterest)
+            RoundedUncheckCardView(interest: testInterest)
+            RoundedCheckedCardView(interest: testInterest)
+            RoundedOtherCardView(interest: testInterest)
+            RoundedResultCardView(interest: testInterest)
+        }
     }
 }
 

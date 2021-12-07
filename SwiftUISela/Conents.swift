@@ -12,3 +12,4 @@ let screenW = UIScreen.main.bounds.width
 let screenH = UIScreen.main.bounds.height
 
 let scale = screenW / 1080
+let CornerRadius: CGFloat = 10
