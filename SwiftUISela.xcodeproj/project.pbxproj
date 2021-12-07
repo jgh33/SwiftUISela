@@ -24,6 +24,7 @@
 		E9558A35275F62B400726637 /* ButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A34275F62B400726637 /* ButtonSet.swift */; };
 		E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A36275F790C00726637 /* HomeNavigationCardView.swift */; };
 		E9558A3B275F7BCC00726637 /* BannerCardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3A275F7BCC00726637 /* BannerCardSet.swift */; };
+		E9558A3D275F8ED800726637 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3C275F8ED800726637 /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E9558A34275F62B400726637 /* ButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSet.swift; sourceTree = "<group>"; };
 		E9558A36275F790C00726637 /* HomeNavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationCardView.swift; sourceTree = "<group>"; };
 		E9558A3A275F7BCC00726637 /* BannerCardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCardSet.swift; sourceTree = "<group>"; };
+		E9558A3C275F8ED800726637 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				E9558A3A275F7BCC00726637 /* BannerCardSet.swift */,
+				E9558A3C275F8ED800726637 /* BannerView.swift */,
 			);
 			path = BannerCard;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				E9558A1E275DF30C00726637 /* Conents.swift in Sources */,
 				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,
 				E9558A25275DF8F900726637 /* TestData.swift in Sources */,
+				E9558A3D275F8ED800726637 /* BannerView.swift in Sources */,
 				E9558A27275E0ADF00726637 /* CheckedNavigationCardView.swift in Sources */,
 				E9558A0D275DEBCE00726637 /* SwiftUISelaApp.swift in Sources */,
 				E9558A2D275F447E00726637 /* OtherNavigationCardView.swift in Sources */,
