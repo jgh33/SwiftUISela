@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack {
             HomeNavigationCardView(interest: testInterest)
             UncheckNavigationCardView(interest: testInterest)
+            BannerView(count: 3)
             CheckedNavigationCardView(interest: testInterest)
             OtherNavigationCardView(interest: testInterest)
             ResultCardView(interest: testInterest)
