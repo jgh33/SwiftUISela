@@ -17,13 +17,24 @@ struct BannerView: View {
 //    @State var isAnimation = true
     var body: some View {
         VStack {
-            Button("搜索框") {
-                print("点击搜索框1")
-            }
             
+            Button(action: {
+                print("Search button")
+            }) {
+                ZStack(alignment: .leading) {
+                    Image("serchbar").resizable()
+                    Text("Search Destination...")
+                        .font(.system(size: 42 * scale, weight: .regular))
+                        .foregroundColor(Color("Color#B1B1B3"))
+                        .padding(.leading, 132 * scale)
+                }
+            }
+            .frame(width: 960 * scale, height: 104 * scale, alignment: .center)
+            .padding([.top, .bottom])
+
             if count == 1 {
                 BannerCardBig(type: .route, interest: nil)
-                    .padding(56 * scale)
+                    .padding([.leading, .trailing, .bottom], 56 * scale)
 
             } else if count > 1 {
                 ScrollViewReader { proxy in
@@ -35,7 +46,7 @@ struct BannerView: View {
                             BannerCardSmall(type: .ar, interest: testInterest).id(2)
                             BannerCardSmall(type: .nearby, interest: testInterest).id(3)
                         }
-                        .padding(56 * scale)
+                        .padding([.leading, .trailing, .bottom], 56 * scale)
                     }
                     .disabled(true)
                     .highPriorityGesture(
@@ -73,6 +84,7 @@ struct BannerView: View {
                 .foregroundColor(Color("Color#F5F6F7"))
                 .padding(.bottom, 34 - 20)
         }
+        .frame(width: screenW)
         .background(Color("Color#F5F6F7"))
         .cornerRadius(bannerCornerRadius)
     }
@@ -86,17 +98,25 @@ struct BannerView_Previews: PreviewProvider {
                 BannerView(count: 2)
             }
             .ignoresSafeArea()
-                      .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
-                      .previewDisplayName("Device - 8")
+            .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
+            .previewDisplayName("Device - 8")
 
             VStack {
                 Spacer()
                 BannerView(count: 2)
             }
             .ignoresSafeArea()
-                      .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
-                      .previewDisplayName("Device - 12")
-                }
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+            .previewDisplayName("Device - 12")
+            
+            VStack {
+                Spacer()
+                BannerView(count: 0)
+            }
+            .ignoresSafeArea()
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+            .previewDisplayName("Device - 12")
+        }
         
     }
 }
