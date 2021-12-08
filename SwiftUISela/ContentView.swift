@@ -9,14 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+//        VStack {
+//            HomeNavigationCardView(interest: testInterest)
+//            UncheckNavigationCardView(interest: testInterest)
+//            BannerView(count: 3)
+//            CheckedNavigationCardView(interest: testInterest)
+//            OtherNavigationCardView(interest: testInterest)
+//            ResultCardView(interest: testInterest)
+//        }
+        
         VStack {
-            HomeNavigationCardView(interest: testInterest)
-            UncheckNavigationCardView(interest: testInterest)
-            BannerView(count: 3)
-            CheckedNavigationCardView(interest: testInterest)
-            OtherNavigationCardView(interest: testInterest)
-            ResultCardView(interest: testInterest)
+            Spacer()
+            BannerView(count: 2)
         }
+        .ignoresSafeArea()
+
     }
 }
 

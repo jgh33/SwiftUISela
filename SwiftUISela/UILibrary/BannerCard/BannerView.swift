@@ -20,8 +20,10 @@ struct BannerView: View {
             Button("搜索框") {
                 print("点击搜索框1")
             }
+            
             if count == 1 {
                 BannerCardBig(type: .route, interest: nil)
+                    .padding(56 * scale)
 
             } else if count > 1 {
                 ScrollViewReader { proxy in
@@ -66,14 +68,35 @@ struct BannerView: View {
                 }
             }
             
-            
-            
+            Divider()
+                .frame(width: 1, height: 1, alignment: .center)
+                .foregroundColor(Color("Color#F5F6F7"))
+                .padding(.bottom, 34 - 20)
         }
+        .background(Color("Color#F5F6F7"))
+        .cornerRadius(bannerCornerRadius)
     }
 }
 
 struct BannerView_Previews: PreviewProvider {
     static var previews: some View {
-        BannerView(count: 2)
+        Group {
+            VStack {
+                Spacer()
+                BannerView(count: 2)
+            }
+            .ignoresSafeArea()
+                      .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
+                      .previewDisplayName("Device - 8")
+
+            VStack {
+                Spacer()
+                BannerView(count: 2)
+            }
+            .ignoresSafeArea()
+                      .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
+                      .previewDisplayName("Device - 12")
+                }
+        
     }
 }
