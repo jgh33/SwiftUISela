@@ -18,11 +18,13 @@ struct ContentView: View {
 //            ResultCardView(interest: testInterest)
 //        }
         
-        VStack {
-            Spacer()
-            BannerView(count: 2)
-        }
-        .ignoresSafeArea()
+//        VStack {
+//            Spacer()
+//            BannerView(count: 2)
+//        }
+//        .ignoresSafeArea()
+        
+        MapView()
 
     }
 }
