@@ -27,6 +27,7 @@
 		E9558A3D275F8ED800726637 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3C275F8ED800726637 /* BannerView.swift */; };
 		E9558A3F2760A70700726637 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3E2760A70700726637 /* SearchView.swift */; };
 		E9558A412760AF1300726637 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A402760AF1300726637 /* TestView.swift */; };
+		E9558A432761E5E400726637 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A422761E5E300726637 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		E9558A3C275F8ED800726637 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		E9558A3E2760A70700726637 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		E9558A402760AF1300726637 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E9558A422761E5E300726637 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				E9558A38275F7B8300726637 /* NavigationCard */,
 				E9558A32275F620C00726637 /* ImageSet.swift */,
 				E9558A34275F62B400726637 /* ButtonSet.swift */,
+				E9558A422761E5E300726637 /* MapView.swift */,
 			);
 			path = UILibrary;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,
 				E9558A25275DF8F900726637 /* TestData.swift in Sources */,
 				E9558A3D275F8ED800726637 /* BannerView.swift in Sources */,
+				E9558A432761E5E400726637 /* MapView.swift in Sources */,
 				E9558A27275E0ADF00726637 /* CheckedNavigationCardView.swift in Sources */,
 				E9558A0D275DEBCE00726637 /* SwiftUISelaApp.swift in Sources */,
 				E9558A2D275F447E00726637 /* OtherNavigationCardView.swift in Sources */,

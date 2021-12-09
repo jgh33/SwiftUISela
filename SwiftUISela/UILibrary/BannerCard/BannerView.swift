@@ -34,7 +34,7 @@ struct BannerView: View {
 
             if count == 1 {
                 BannerCardBig(type: .route, interest: nil)
-                    .padding([.leading, .trailing, .bottom], 56 * scale)
+                    .padding(56 * scale)
 
             } else if count > 1 {
                 ScrollViewReader { proxy in
@@ -46,7 +46,7 @@ struct BannerView: View {
                             BannerCardSmall(type: .ar, interest: testInterest).id(2)
                             BannerCardSmall(type: .nearby, interest: testInterest).id(3)
                         }
-                        .padding([.leading, .trailing, .bottom], 56 * scale)
+                        .padding(56 * scale)
                     }
                     .disabled(true)
                     .highPriorityGesture(

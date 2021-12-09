@@ -44,7 +44,7 @@ struct BannerCardSmall: View {
             .clipShape(
                 RoundedRectangle(cornerRadius: CornerRadius, style: .continuous)
             )
-            .shadow(color: .gray, radius: 5, x: 0, y: 5)
+            .shadow(color: .gray, radius: 5, x: 0, y: 0)
 
     }
 }
@@ -59,7 +59,7 @@ struct BannerCardBig: View {
             .clipShape(
                 RoundedRectangle(cornerRadius: CornerRadius, style: .continuous)
             )
-            .shadow(color: .gray, radius: 5, x: 0, y: 5)
+            .shadow(color: .gray, radius: 5, x: 0, y: 0)
     }
 }
 
