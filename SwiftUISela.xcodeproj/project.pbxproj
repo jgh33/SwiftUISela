@@ -28,6 +28,7 @@
 		E9558A3F2760A70700726637 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A3E2760A70700726637 /* SearchView.swift */; };
 		E9558A412760AF1300726637 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A402760AF1300726637 /* TestView.swift */; };
 		E9558A432761E5E400726637 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A422761E5E300726637 /* MapView.swift */; };
+		E9558A462766B60800726637 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A452766B60800726637 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E9558A3E2760A70700726637 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		E9558A402760AF1300726637 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		E9558A422761E5E300726637 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E9558A452766B60800726637 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				E9558A24275DF8F900726637 /* TestData.swift */,
 				E9558A1D275DF30C00726637 /* Conents.swift */,
 				E9558A402760AF1300726637 /* TestView.swift */,
+				E9558A442766B5DD00726637 /* DataSource */,
 				E9558A21275DF55F00726637 /* Model */,
 				E9558A1A275DED3500726637 /* UILibrary */,
 				E9558A10275DEBD000726637 /* Assets.xcassets */,
@@ -148,6 +151,14 @@
 				E9558A3C275F8ED800726637 /* BannerView.swift */,
 			);
 			path = BannerCard;
+			sourceTree = "<group>";
+		};
+		E9558A442766B5DD00726637 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E9558A452766B60800726637 /* LocationManager.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				E9558A3B275F7BCC00726637 /* BannerCardSet.swift in Sources */,
 				E9558A23275DF58100726637 /* Interest.swift in Sources */,
 				E9558A1E275DF30C00726637 /* Conents.swift in Sources */,
+				E9558A462766B60800726637 /* LocationManager.swift in Sources */,
 				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,
 				E9558A25275DF8F900726637 /* TestData.swift in Sources */,
 				E9558A3D275F8ED800726637 /* BannerView.swift in Sources */,
@@ -372,6 +384,7 @@
 				DEVELOPMENT_TEAM = U28X3G4N5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,6 +415,7 @@
 				DEVELOPMENT_TEAM = U28X3G4N5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

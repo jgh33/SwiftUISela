@@ -15,11 +15,14 @@ struct MapView: View {
     let maxScale: CGFloat = 0.6
     let rawFrame: CGSize = CGSize(width: 8500, height: 5387)
     @State var isSmall = true
+    @State var gpsPosition = true
+    
+    @ObservedObject var locationManager = LocationManager.shared 
+
     var body: some View {
         
-        ScrollView([.vertical, .horizontal]) {
+        ScrollView([.vertical, .horizontal], showsIndicators: false) {
             Image("CF")
-//                .resizable()
                 .frame(width: rawFrame.width * (isSmall ? minScale : maxScale), height: rawFrame.height * (isSmall ? minScale : maxScale), alignment: .center)
                 .scaleEffect(isSmall ? minScale : maxScale)
                 
