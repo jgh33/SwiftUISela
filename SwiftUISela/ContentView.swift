@@ -24,7 +24,7 @@ struct ContentView: View {
 //        }
 //        .ignoresSafeArea()
         
-        MapView()
+        HomeView()
 
     }
 }

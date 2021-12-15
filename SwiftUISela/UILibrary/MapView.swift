@@ -17,7 +17,7 @@ struct MapView: View {
     @State var isSmall = true
     @State var gpsPosition = true
     
-    @ObservedObject var locationManager = LocationManager.shared 
+//    @ObservedObject var locationManager = LocationManager.shared 
 
     var body: some View {
         
@@ -28,7 +28,7 @@ struct MapView: View {
                 
         }
         .ignoresSafeArea()
-        .frame(width: screenW, height: screenH, alignment: .bottomLeading)
+//        .frame(width: screenW, height: screenH, alignment: .bottomLeading)
 //        .gesture(
 //            MagnificationGesture()
 //                .updating($scale, body: { (value, scale, trans) in

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51B9E222769F6ED004B795D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B9E212769F6ED004B795D /* HomeView.swift */; };
+		D51E9731276A073E00DFC8EA /* NavigationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E9730276A073E00DFC8EA /* NavigationCardView.swift */; };
+		D5C0E5BF276A0EA400CB1049 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0E5BE276A0EA400CB1049 /* BubbleView.swift */; };
 		E9558A0D275DEBCE00726637 /* SwiftUISelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A0C275DEBCE00726637 /* SwiftUISelaApp.swift */; };
 		E9558A0F275DEBCE00726637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9558A0E275DEBCE00726637 /* ContentView.swift */; };
 		E9558A11275DEBD000726637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9558A10275DEBD000726637 /* Assets.xcassets */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D51B9E212769F6ED004B795D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D51E9730276A073E00DFC8EA /* NavigationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCardView.swift; sourceTree = "<group>"; };
+		D5C0E5BE276A0EA400CB1049 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		E9558A09275DEBCE00726637 /* SwiftUISela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9558A0C275DEBCE00726637 /* SwiftUISelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISelaApp.swift; sourceTree = "<group>"; };
 		E9558A0E275DEBCE00726637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5C0E5BD276A0E6700CB1049 /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0E5BE276A0EA400CB1049 /* BubbleView.swift */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
 		E9558A00275DEBCE00726637 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +106,7 @@
 				E9558A24275DF8F900726637 /* TestData.swift */,
 				E9558A1D275DF30C00726637 /* Conents.swift */,
 				E9558A402760AF1300726637 /* TestView.swift */,
+				D51B9E212769F6ED004B795D /* HomeView.swift */,
 				E9558A442766B5DD00726637 /* DataSource */,
 				E9558A21275DF55F00726637 /* Model */,
 				E9558A1A275DED3500726637 /* UILibrary */,
@@ -114,6 +129,7 @@
 			children = (
 				E9558A30275F5E8900726637 /* TextSet.swift */,
 				E9558A3E2760A70700726637 /* SearchView.swift */,
+				D5C0E5BD276A0E6700CB1049 /* Bubble */,
 				E9558A39275F7BA200726637 /* BannerCard */,
 				E9558A38275F7B8300726637 /* NavigationCard */,
 				E9558A32275F620C00726637 /* ImageSet.swift */,
@@ -135,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				E9558A2A275F3D7000726637 /* NavigationCardSet.swift */,
+				D51E9730276A073E00DFC8EA /* NavigationCardView.swift */,
 				E9558A36275F790C00726637 /* HomeNavigationCardView.swift */,
 				E9558A1F275DF4B800726637 /* UncheckNavigationCardView.swift */,
 				E9558A26275E0ADF00726637 /* CheckedNavigationCardView.swift */,
@@ -232,11 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9558A31275F5E8900726637 /* TextSet.swift in Sources */,
+				D5C0E5BF276A0EA400CB1049 /* BubbleView.swift in Sources */,
 				E9558A0F275DEBCE00726637 /* ContentView.swift in Sources */,
 				E9558A33275F620C00726637 /* ImageSet.swift in Sources */,
 				E9558A2B275F3D7000726637 /* NavigationCardSet.swift in Sources */,
 				E9558A37275F790C00726637 /* HomeNavigationCardView.swift in Sources */,
 				E9558A2F275F47DD00726637 /* ResultCardView.swift in Sources */,
+				D51E9731276A073E00DFC8EA /* NavigationCardView.swift in Sources */,
 				E9558A412760AF1300726637 /* TestView.swift in Sources */,
 				E9558A3F2760A70700726637 /* SearchView.swift in Sources */,
 				E9558A20275DF4B800726637 /* UncheckNavigationCardView.swift in Sources */,
@@ -246,6 +265,7 @@
 				E9558A462766B60800726637 /* LocationManager.swift in Sources */,
 				E9558A35275F62B400726637 /* ButtonSet.swift in Sources */,
 				E9558A25275DF8F900726637 /* TestData.swift in Sources */,
+				D51B9E222769F6ED004B795D /* HomeView.swift in Sources */,
 				E9558A3D275F8ED800726637 /* BannerView.swift in Sources */,
 				E9558A432761E5E400726637 /* MapView.swift in Sources */,
 				E9558A27275E0ADF00726637 /* CheckedNavigationCardView.swift in Sources */,
@@ -385,6 +405,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "使用GPS信息来辅助您导航";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -416,6 +438,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "使用GPS信息来辅助您导航";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用GPS信息来辅助您导航";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -11,7 +11,7 @@ import Combine
 
 
 class LocationManager: NSObject, ObservableObject {
-    static let shared = LocationManager()
+//    static let shared = LocationManager()
     
     @Published var locationStatus: CLAuthorizationStatus?
     {

@@ -30,6 +30,7 @@ struct Interest {
 //    var position: vector_float3
     var isCheckPoint: Bool
     var isCripple: Bool
+    var isWaiting: Bool
     var bgColor: String
 }
 
@@ -43,6 +44,6 @@ extension Interest {
     }
     
     var waitingTime: Int {
-        return 0
+        return 10
     }
 }
